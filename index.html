@@ -187,14 +187,14 @@
       padding: 8px 0 16px;
     }
     .mobile-menu.open { display: flex; }
-    .mobile-menu a {
+    .mobile-menu a:not(.btn) {
       color: var(--text-muted);
       padding: 11px 24px;
       font-size: 0.9rem;
       font-weight: 500;
       transition: color var(--transition), background var(--transition);
     }
-    .mobile-menu a:hover { color: var(--text); background: var(--off-white); }
+    .mobile-menu a:not(.btn):hover { color: var(--text); background: var(--off-white); }
     .mobile-menu .btn { margin: 12px 24px 4px; justify-content: center; }
 
     /* ── Hero ──────────────────────────────────────────────── */
@@ -987,11 +987,11 @@
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
           </div>
           <h3>Hours lost to admin</h3>
-          <p>Chasing invoices, copy-pasting data, manually sending follow-up emails. It all adds up to days of lost productivity every month.</p>
+          <p>Chasing invoices, copy-pasting data, manually sending follow-up emails. It all adds up to days of lost productivity every single month.</p>
           <div class="pain-transform">
-            <span class="from">Manual, repetitive tasks</span>
+            <span class="from">Repetitive tasks</span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="to">Runs automatically, 24/7</span>
+            <span class="to">Scheduled runs</span>
           </div>
         </div>
         <div class="pain-card reveal reveal-delay-2">
@@ -999,11 +999,11 @@
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
           </div>
           <h3>Leads slipping through</h3>
-          <p>Slow follow-ups, missed enquiries, and no consistent process means potential customers choose a competitor who responds faster.</p>
+          <p>Slow follow-ups, missed enquiries, and no consistent process means potential customers choose a competitor who simply responds faster.</p>
           <div class="pain-transform">
-            <span class="from">Slow, inconsistent follow-up</span>
+            <span class="from">Missed follow-ups</span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="to">Instant, personalised replies</span>
+            <span class="to">Instant replies</span>
           </div>
         </div>
         <div class="pain-card reveal reveal-delay-3">
@@ -1011,11 +1011,11 @@
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h3>Disjointed systems</h3>
-          <p>Your website, CRM, accounting, and communications don't talk to each other, so you end up being the middleman between all of them.</p>
+          <p>Your website, CRM, accounting, and communications don't talk to each other, so you end up being the middleman connecting all of them manually.</p>
           <div class="pain-transform">
-            <span class="from">Disconnected, siloed tools</span>
+            <span class="from">Siloed tools</span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="to">One seamless workflow</span>
+            <span class="to">One workflow</span>
           </div>
         </div>
       </div>
@@ -1146,7 +1146,7 @@
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 3L2 8l11 5 11-5-11-5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M6 10.5v5.5c0 2.2 3.1 3.8 7 3.8s7-1.6 7-3.8V10.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M22 8v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
           </div>
           <div class="service-label">Service</div>
-          <h3>Learning Design</h3>
+          <h3>Training</h3>
           <p>Feel confident using your CRM every single day. We design personalised training so you and your team understand exactly how your systems work. No more second-guessing.</p>
           <div class="service-bullets">
             <div class="service-bullet">
@@ -1295,7 +1295,7 @@
             <img src="logo.png" alt="Aussie Automate" style="height: 42px; width: auto; opacity: 0.85;" />
           </a>
           <span class="footer-sep">·</span>
-          <span class="footer-copy">© 2025 Aussie Automate. All rights reserved.</span>
+          <span class="footer-copy">© 2026 Aussie Automate. All rights reserved.</span>
         </div>
         <div class="footer-links">
           <a href="#services">Services</a>
